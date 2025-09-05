@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# FEniCS failures
+jitfailure*
+
+#results
+*/simulations/*
+*/meshes/*
+*.xdmf
+*.h5
+*.vtu
+*.pvd
+
+#misc
+*.DS_Store
+
+#simulation files
+*.txt
+*.json
+*.sh
+load_curve.*
+*.png
+*.mp4
+*.zip
+*.tar
+*.gz
+
+#simulation error/output files
+*.err
+*.out
+*.e
+*.o
+
+#visualization files
+*.pdf
+*.svg
