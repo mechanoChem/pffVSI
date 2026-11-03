@@ -19,7 +19,7 @@ import json
 import shutil
 
 import principal_components as pc
-from postprocessing.combine_results import plot_load_curve
+# from postprocessing.combine_results import plot_load_curve
 
 set_log_active(True) # Dolfins logging setup
 
@@ -895,7 +895,7 @@ while t_index <= end_index:
 if converge_index > 2:
     np.savetxt(os.path.join(load_path,'load_curve.txt'), load_curve[0:converge_index+1,:], fmt='%.18e', delimiter=' ', newline='\n', header='', footer='', comments='# ')#, encoding=None)
 
-    plot_load_curve(load_curve[0:converge_index+1,:],load_path)
+    # plot_load_curve(load_curve[0:converge_index+1,:],load_path)
 
 time_done = time.time()
 print(f'{num_t_steps} steps took: {time_done-time_setup:1.3e} s')
