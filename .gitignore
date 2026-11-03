@@ -18,7 +18,6 @@ jitfailure*
 
 #simulation files
 *.txt
-*.json
 *.sh
 load_curve.*
 *.png
